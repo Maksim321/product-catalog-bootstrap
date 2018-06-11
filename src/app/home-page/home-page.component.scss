@@ -1,0 +1,81 @@
+.col-list-prod{
+	float:left;
+	width: 25%;
+    color: #000;
+    position: relative;
+}
+
+.container-wrap{
+	padding: 25px;
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
+@media screen and (min-width:100px) {
+	.col-list-prod{
+		float:left;
+		width: 50%;
+	}
+	
+	.container-wrap{
+		padding: 10px;
+	}
+}
+
+@media screen and (min-width:480px) {
+	.col-list-prod{
+		width: 33%;
+	}
+	
+	.container-wrap{
+		padding: 10px;
+	}
+}
+
+@media screen and (min-width:768px) {
+ 	.col-list-prod{
+		width: 33%;
+	}
+	
+	.container-wrap{
+		padding: 20px;
+	}
+}
+
+@media screen and (min-width:1000px) {
+	 .col-list-prod{
+		width: 25%;
+	}
+	
+	.container-wrap{
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+}
+
+@media screen and (min-width:1366px) {
+	.container-wrap{
+		padding-left: 150px;
+		padding-right: 150px;
+	}
+}
+
+@media screen and (min-width:1600px) {
+	.container-wrap{
+		padding-left: 250px;
+		padding-right: 250px;
+	}
+}
+
+
+@media screen and (min-width:1900px) {
+	.container-wrap{
+		padding-left: 250px;
+		padding-right: 250px;
+	}
+	
+	.col-list-prod{
+		float:left;
+		width: 20%;
+	}
+}

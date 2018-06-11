@@ -1,0 +1,20 @@
+<div class="modal_form">
+  <span class="modal_close">✖</span>
+  <div class="content-page">
+    <div class="content-page-head">Авторизация</div>
+    <div class="content-page-body">
+      <form #userLoginForm="ngForm" (ngSubmit)="OnSubmit(userLoginForm)">
+        <div class="row">
+          <input class="login-inpt" type="text" name="Login" placeholder="Логин" ngModel>
+        </div>
+        <div class="row">
+          <input class="password-inpt" type="password" name="Password" placeholder="Пароль" minlength="3" ngModel>
+        </div>
+        <div class="row">
+          <button class="submit-btn" type="submit">Войти</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+<div id="overlay"></div>

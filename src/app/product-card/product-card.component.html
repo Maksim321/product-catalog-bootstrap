@@ -1,0 +1,7 @@
+<div class="card">
+ <img class="card-img-top" [src]='"http://smktesting.herokuapp.com/static/"+product.img' alt="Card image cap">
+  <div class="card-body">
+   <h5 class="card-title">{{product.title}}</h5>
+    <a [routerLink]="['/product', product.id]" class="btn btn-primary">Подробнее</a>
+  </div>
+</div>
